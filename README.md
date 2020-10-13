@@ -1,2 +1,2 @@
-# JanxForm validation
+# JanxForm Validation
 Validation helpers for janx-form
