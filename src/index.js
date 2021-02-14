@@ -12,7 +12,7 @@ export default function validateField(value, validation, getField = false) {
 
     switch (key) {
       case "required":
-        if (value) {
+        if (value) { // aqui ta pegando o valor 0 como required
           value === "" && errors.push("required");
         } else {
           errors.push("required");
